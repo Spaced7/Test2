@@ -8,8 +8,8 @@ public class Main {
         int[] array = {1, 3, 5, 99, 2};
 
         arraySort(array);
-        for (int i = 0; i < array.length; i++) {
-            System.out.print(array[i] + " ");
+        for (int j : array) {
+            System.out.print(j + " ");
         }
 
         System.out.println();
