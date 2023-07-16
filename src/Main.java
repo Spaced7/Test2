@@ -21,14 +21,14 @@ public class Main {
 
         System.out.println(Arrays.toString(array1));
         System.out.println(Arrays.toString(arraySort2(array1)));
-        System.out.println("Tablica wejściowa: ");
+        System.out.println("Tablica wejściowa bez zmian: ");
         System.out.println(Arrays.toString(array1));
 
-
         /*
-        Różnica między metodami jest taka, że pierwsza modyfikuje tablicę którą otrzymuje w argumencie.
-        Druga metoda tworzy kopie tablicy, sortuje ją bez modyfikowania tablicy wejsciowej
+        Różnica między metodami jest taka, że pierwsza(arraySort) modyfikuje tablicę którą otrzymuje w argumencie.
+        Druga(arraySort2) metoda tworzy kopie tablicy, sortuje ją bez modyfikowania tablicy wejsciowej
          */
+
         System.out.println("----------");
         System.out.println("Zad.3");
 
